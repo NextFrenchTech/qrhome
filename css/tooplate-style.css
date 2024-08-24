@@ -411,6 +411,10 @@ p:last-child {
   .tm-reverse-sm {
     flex-direction: column-reverse;
   }
+
+  .tm-main-content.tm-footer-relative footer {
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 544px) {
