@@ -103,8 +103,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 165px;
-  height: 165px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   border: 1px solid white;
   cursor: pointer;
@@ -142,9 +142,9 @@ p {
   font-weight: 300;
 }
 
-/*.content {
-  max-width: 370px;
-}*/
+.content {
+  max-width: 900px;
+}
 
 .grid {
   display: flex;
@@ -375,8 +375,8 @@ p:last-child {
 
 @media (min-width: 767px) and (max-width: 991px), (max-width: 440px) {
   .tm-nav-link {
-    width: 145px;
-    height: 145px;
+    width: 165px;
+    height: 165px;
   }
 
   span {
@@ -414,6 +414,11 @@ p:last-child {
 
   .tm-main-content.tm-footer-relative footer {
     margin-left: 52.5px;
+  }
+
+  .tm-nav-link {
+    width: 145px;
+    height: 145px;
   }
 }
 
