@@ -239,12 +239,11 @@ p {
   z-index: 1001;
 }
 
-/* Team */
 .tm-reverse-sm {
   flex-direction: row;
 }
 
-/* Our Work */
+/* check-link */
 .tm-slider-img-link {
   padding-left: 10px;
   padding-right: 10px;
@@ -269,6 +268,61 @@ p {
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
   color: deepskyblue;
+}
+
+/* price-link */
+.pricing-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #2c2a35;
+  text-align: center;
+}
+
+.prices {
+  margin: 20px;
+  color: black;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: wheat;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: overline;
+}
+
+.option:hover {
+  background-color: wheat;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
+
+th {
+  background-color: wheat;
+  color: white;
+}
+
+td {
+  text-align: center;
+  color: black;
 }
 
 /* Contact */
