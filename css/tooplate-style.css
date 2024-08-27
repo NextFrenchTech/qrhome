@@ -279,30 +279,9 @@ p {
   text-align: center;
 }
 
-.prices {
+.pricing {
   margin: 20px;
   color: black;
-}
-
-.options {
-  margin-bottom: 20px;
-}
-
-.option {
-  margin: 0 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: white;
-  color: wheat;
-  cursor: pointer;
-  font-size: 20px;
-  text-decoration: overline;
-}
-
-.option:hover {
-  background-color: wheat;
-  color: white;
 }
 
 table {
@@ -318,6 +297,7 @@ th, td {
 th {
   background-color: wheat;
   color: white;
+  width: 55%;
 }
 
 td {
@@ -473,6 +453,14 @@ p:last-child {
   .tm-nav-link {
     width: 145px;
     height: 145px;
+  }
+
+  .pricing-container {
+    padding: 10px;
+  }
+
+  td {
+    font-size: 12.5px;
   }
 }
 
