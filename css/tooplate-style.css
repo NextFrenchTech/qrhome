@@ -243,6 +243,39 @@ p {
   flex-direction: row;
 }
 
+/* inventory-link */ 
+.inventory {
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.inventory input {
+  display: none;
+}
+
+.inventory svg {
+  overflow: visible;
+  height: 0.75em;
+  width: 0.75em;
+  margin-right: 10px;
+}
+
+.path {
+  fill: none;
+  stroke: white;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+  stroke-dasharray: 241 9999999;
+  stroke-dashoffset: 0;
+}
+
+.inventory input:checked ~ svg .path {
+  stroke-dasharray: 70.5096664428711 9999999;
+  stroke-dashoffset: -262.2723388671875;
+}
+
 /* check-link */
 .tm-slider-img-link {
   padding-left: 10px;
